@@ -1,0 +1,79 @@
+h1{
+    font-size: 1.8rem;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 300px;
+}
+
+.operation{
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.operation > button{
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 3px gray inset;
+    padding: 7px;
+    width: 130px;
+    transition: all 300ms;
+}
+
+.operation > button:hover{
+    background-color: white;
+}
+
+.content-input{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-input > input[type='number']{
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.answer{
+    border-top: 1px solid #ddd;
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.answer > span{
+    padding-right: 20px;
+}

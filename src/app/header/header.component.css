@@ -1,0 +1,82 @@
+h2{
+    padding-top: 7px;
+    font-size: 1.5rem;
+    color: tomato;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #EAE8E8;
+}
+
+.logo{
+    padding-left: 15px;
+}
+
+.segment-left{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.segment-left > .options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 60%;
+}
+
+.options > .content-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.segment-right{
+    display: flex;
+    width: 30%;
+}
+
+.comunity{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search{
+    background-color: #00918F;
+    width: 50px;
+    min-height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    height: 60px;
+    background-color: #282D32;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px grey;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+}
+
+nav > ul > li{
+    list-style: none;
+}
