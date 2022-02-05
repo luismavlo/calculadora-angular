@@ -3,8 +3,7 @@
         <h1>Calculadora L&M</h1>
         <p>Resolver ejercicios de suma, resta, multiplicación y división</p>
     </div>
-    
-    <form action="" class="content" >
+    <div class="form">
         <div class="operation">
             <button (click)='getSum(num1.value, num2.value)'>SUMAR</button>
             <button (click)='getSubstraction(num1.value, num2.value)'>RESTAR</button>
@@ -12,17 +11,19 @@
             <button (click)='getDivision(num1.value, num2.value)'>DIVIDIR</button>
             <button (click)='getEmpowerment(num1.value, num2.value)'> POTENCIA^X </button>
         </div>
-        <div class="content-input">
-            <label for="num1">Numero 1:</label>
-            <input type="number" name="num1" id="num1" required #num1>
-        </div>
-        <div class="content-input">
-            <label for="num2">Numero 2 o Exponente:</label>
-            <input type="number" name="num2" id="num2" required #num2>
-        </div>
-        
-        
-    </form>
+
+        <form action="" class="content" >
+            
+            <div class="content-input">
+                <label for="num1">Numero 1:</label>
+                <input type="number" name="num1" id="num1" required #num1>
+            </div>
+            <div class="content-input">
+                <label for="num2">Numero 2 o Exponente:</label>
+                <input type="number" name="num2" id="num2" required #num2>
+            </div>
+        </form>
+    </div>
     <div class="answer">
         <span>Respuesta: </span>
         <p>{{ getAnswer() }}</p>
